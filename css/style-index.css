@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/style-index.css
 * {
   box-sizing: border-box;
   margin: 0;
@@ -130,3 +131,133 @@ footer {
     margin-top: 15px;
   }
 }
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.index {
+  padding: 0;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.29'%3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.site-heading {
+  background: url("./assets/BM.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 81vh;
+}
+.heading-text {
+  color: #aaa;
+}
+.heading-text span h1 {
+  font-size: 3.5em;
+  letter-spacing: 8px;
+}
+.intro-img {
+  width: 75% !important;
+  margin-right: 3vw;
+}
+.card {
+  /* margin-left: 60px; */
+  width: 75%;
+  margin-top: -60px;
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: white;
+}
+
+.section-heading-main {
+  font-size: 0.45em;
+  color: blue;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-heading-sub {
+  color: #cdcdcd;
+  font-size: 0.9em;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+footer {
+  height: 10vh;
+}
+
+@media (max-width: 1025px) {
+  .intro-img {
+    margin-right: 8vw;
+  }
+  .card {
+    margin-top: -40px;
+  }
+  .section-heading-sub {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 769px) {
+  .intro-img {
+    margin-left: 13vw;
+  }
+  .card {
+    width: 85%;
+  }
+  .section-heading-main {
+    font-size: 0.5em;
+  }
+  .section-heading-sub {
+    font-size: 0.6em;
+  }
+}
+@media (max-width: 426px) {
+  .intro-img {
+    margin-left: -50px;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .intro-img  img{
+    width: 100vw !important;
+  }
+  .card {
+    margin-top: 15px;
+  }
+}
+/***********
+Contact Us page
+***********/
+.contact-us-container {
+  background-color: #330033 !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='784' height='784' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='2.1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='6'/%3E%3Ccircle cx='539' cy='269' r='6'/%3E%3Ccircle cx='603' cy='493' r='6'/%3E%3Ccircle cx='731' cy='737' r='6'/%3E%3Ccircle cx='520' cy='660' r='6'/%3E%3Ccircle cx='309' cy='538' r='6'/%3E%3Ccircle cx='295' cy='764' r='6'/%3E%3Ccircle cx='40' cy='599' r='6'/%3E%3Ccircle cx='102' cy='382' r='6'/%3E%3Ccircle cx='127' cy='80' r='6'/%3E%3Ccircle cx='370' cy='105' r='6'/%3E%3Ccircle cx='578' cy='42' r='6'/%3E%3Ccircle cx='237' cy='261' r='6'/%3E%3Ccircle cx='390' cy='382' r='6'/%3E%3C/g%3E%3C/svg%3E");
+}
+.contact-us {
+  color: white;
+}
+input, textarea {
+  box-shadow: 1px 1px 12px #eee;
+}
+@media (max-width: 768px) {
+  .fa-map-pin,
+  .fa-envelope {
+    font-size: 24px;
+  }
+  .form-btn {
+    width: 100%;
+  }
+
+}
+@media (min-width: 1440px) {
+  .fa-map-pin,
+  .fa-envelope {
+    font-size: 36px;
+  }
+}
+@media (max-width: 426px) {
+  .email p, .address p {
+    text-align: center !important;
+  }
+}
+>>>>>>> e9f8fb3345b5c03b808d912cf5e92dc5b147138f:style.css
