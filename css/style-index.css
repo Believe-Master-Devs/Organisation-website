@@ -10,14 +10,28 @@ body {
   background-size: cover; */
 }
 .site-heading {
-  background: url("./assets/BM.png");
+  background: url("../assets/BM.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 500px;
   /* min-height: 81vh; */
 }
+/* .sub-div {
+  height: 30vh;
+  width: 50vw;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+} */
 .heading-text {
   color: #aaa;
+}
+.heading-text span h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 5.2em !important;
+}
+.heading-text span p {
+  font-family: 'Krona One', sans-serif;
+  font-size: 2.4em;
 }
 @media (min-width: 426px) {
   .heading-text {
@@ -30,7 +44,7 @@ body {
 
   }
   .heading-text span h1 {
-    font-size: 3.8em;
+    font-size: 3.8em !important;
     letter-spacing: 12px;
   }
 }
@@ -43,7 +57,7 @@ body {
     font-size: 1em;
   }
   .heading-text span h1 {
-    font-size: 1.9em;
+    font-size: 2.3em !important;
     letter-spacing: 7px;
   }
 }
@@ -52,7 +66,7 @@ body {
     font-size: 0.8em;
   }
   .heading-text span h1 {
-    font-size: 1.2em;
+    font-size: 1.8em !important;
   }
 
 }
@@ -70,13 +84,15 @@ body {
   color: #ccc;
 }
 .section-heading-main {
-  font-size: 0.6em;
+  font-family: 'Krona one', sans-serif;
+  font-size: 0.4em !important;
   font-weight: 700;
   text-transform: uppercase;
 }
 .section-heading-sub {
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #cdd;
-  font-size: 0.9em;
+  font-size: 0.9em !important;
   letter-spacing: 6px;
   text-transform: uppercase;
 }

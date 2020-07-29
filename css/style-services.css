@@ -8,12 +8,14 @@ body {
 
 
 .services-text {
-  font-size: 1.8em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.8em;
   letter-spacing: 4px;
   line-height: 42px;
 }
 .services-text-sub {
-  font-size: 0.6em;
+  font-family: 'Krona one', sans-serif;
+  font-size: 1em;
 }
 
 .bm-news-logo, .bm-ans-logo, .bm-cc-logo {
@@ -33,6 +35,9 @@ body {
   background-image: -moz-linear-gradient(bottom right, #d8dede 0%, #e5bdf6 74%) !important;
   background-image: linear-gradient(to top left, #d8dede 0%, #e5bdf6 74%) !important;
 }
+.card-title {
+  font-family: 'Krona one', sans-serif
+}
 .services-card-btn > a {
   color: #eeddee;
 }
@@ -42,7 +47,8 @@ body {
 }
 @media (max-width: 1025px) {
   .services-text {
-    font-size: 1.8em;
+    margin-top: -32px;
+    font-size: 2.4em;
   }
   .services-svg > svg {
     width: 342px;
@@ -51,7 +57,13 @@ body {
 }
 @media (max-width: 769px) {
   .services-text {
-    font-size: 1.2em;
+    font-size: 1.6em;
+  }
+  .services-heading > h2 > div:first-of-type {
+    margin-bottom: -8px !important;
+  }
+  .services-heading > h2 > div:last-of-type {
+    margin-top: -8px !important;
   }
   .services-text-sub {
     font-size: 0.5em;
@@ -79,11 +91,14 @@ body {
 }
 @media (max-width: 376px) {
   .services-text {
-    font-size: 0.8em;
+    font-size: 1.2em;
     letter-spacing: 5px;
   }
   .services-text-sub {
-    font-size: 0.425em;
+    font-size: 0.6em;
+  }
+  .services-heading > h2 > div:last-of-type {
+    margin-top: -2px !important;
   }
   .services-container-heading h3 {
     font-size: 0.9em;
