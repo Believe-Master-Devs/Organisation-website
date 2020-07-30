@@ -17,8 +17,11 @@ body {
   font-family: 'Krona one', sans-serif;
   font-size: 1em;
 }
-
-.bm-news-logo, .bm-ans-logo, .bm-cc-logo {
+.bm-news-logo {
+  margin-top: 12px;
+  width: 65%;
+}
+.bm-ans-logo, .bm-cc-logo {
   width: 35%;
 }
 

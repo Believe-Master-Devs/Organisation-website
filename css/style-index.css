@@ -10,11 +10,10 @@ body {
   background-size: cover; */
 }
 .site-heading {
-  background: url("../assets/BM.png");
+  background: url("../assets/bm-logo-bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 500px;
-  /* min-height: 81vh; */
+  background-size: 440px;
 }
 /* .sub-div {
   height: 30vh;
@@ -23,7 +22,10 @@ body {
   backdrop-filter: blur(8px);
 } */
 .heading-text {
-  color: #aaa;
+  color: #cfcfcf /*#98a0a0*/;
+}
+.welcome-text {
+  color: #717272c5;
 }
 .heading-text span h1 {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -40,7 +42,6 @@ body {
   }
   .heading-text span p {
     font-size: 1.6em;
-    color: #fff;
 
   }
   .heading-text span h1 {

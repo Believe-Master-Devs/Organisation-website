@@ -28,6 +28,13 @@ body {
   background-image: -o-linear-gradient(bottom right, #f3e6e8 0%, #d5d0e5 74%);
   background-image: linear-gradient(to top left, #f3e6e8 0%, #d5d0e5 74%);
 }
+.about-container:hover {
+  background-color: #d8dede !important;
+  background-image: -webkit-linear-gradient(bottom right, #d8dede 0%, #e5bdf6 74%) !important;
+  background-image: -o-linear-gradient(bottom right, #d8dede 0%, #e5bdf6 74%) !important;
+  background-image: -moz-linear-gradient(bottom right, #d8dede 0%, #e5bdf6 74%) !important;
+  background-image: linear-gradient(to top left, #d8dede 0%, #e5bdf6 74%) !important;
+}
 .about-container-heading h3 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2em;
