@@ -21,8 +21,11 @@ body {
   margin-top: 12px;
   width: 65%;
 }
-.bm-ans-logo, .bm-cc-logo {
+.bm-ans-logo {
   width: 35%;
+}
+.bm-cc-logo {
+  width: 15% !important;
 }
 
 #card-news, #card-ans, #card-cc {
