@@ -188,7 +188,7 @@ body {
     padding: 24px 0 24px 36px;
   }
   .timeline ul li:nth-child(odd) .timeline-time {
-    right: 160px;
+    right: 140px;
   }
 }
 @media (max-width: 321px) {
