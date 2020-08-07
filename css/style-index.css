@@ -27,6 +27,9 @@ body {
 .welcome-text {
   color: #717272c5;
 }
+/* .welcome-text span {
+  background: #0a5dd6;
+} */
 .heading-text span h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5.2em !important;
