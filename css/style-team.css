@@ -42,3 +42,25 @@ img {
   margin: 12px 11px 10px 10px;
   width: 90%;
 }
+
+/* Svg width and height on different viewports */
+@media (max-width: 1025px) {
+  .team-svg > svg {
+    width: 342px;
+    height: 351px;
+  }
+}
+
+@media (max-width: 769px) {
+  .team-svg > svg {
+    width: 242px;
+    height: 251px;
+  }
+}
+
+@media (max-width: 376px) {
+  .team-svg > svg {
+    width: 212px;
+    height: 321px;
+  }
+}
