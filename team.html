@@ -7,7 +7,7 @@
   <title>BM | Team</title>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./css/style-team.css">
+  <link rel="stylesheet" href="./style.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -32,10 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="./about.html">About</a>
             <a class="nav-item nav-link" href="./services.html">Services</a>
             <a class="nav-item nav-link" href="./timeline.html">Timeline</a>
-            <a class="nav-item nav-link active" href="./team.html">Team</a>
+            <a class="nav-item nav-link active" href="#">Team</a>
             <a class="nav-item nav-link" href="./contact-us.html">Contact Us</a>
           </div>
         </div>
@@ -43,17 +43,17 @@
 
       <!-- Header -->
       <header class="team-header text-light text-center text-sm-left mt-sm-5 mb-4">
-        <div class="row px-5 pt-sm-5">
-          <div class="team-header mt-5">
-            <div class="pt-4 pt-sm-5">
-              <div class="team-headine-text <pt-sm></pt-sm>-5">
+        <div class="row px-5 pt-xl-5">
+          <div class="team-header mx-auto mt-5">
+            <div class="pt-4 pt-xl-5">
+              <div class="heading pt-sm-3">
                 <span class="team-heading-sub"><p class="pl-sm-2">Meet</p></span>
                 <h1 class="team-heading-main mt-n3">Our Team</h1>
               </div>
             </div>
           </div>
-          <div class="team-svg col-sm-6 ml-auto">
-            <svg class="mt-n5 ml-sm-5" id="b32a285a-6b04-4396-8e15-f52ff515c3cb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="410" height="415" viewBox="0 0 1115.91385 832.5636">
+          <div class="svg-container col-sm-6 ml-auto">
+            <svg class="mt-xl-n5 ml-sm-5" id="b32a285a-6b04-4396-8e15-f52ff515c3cb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="410" height="415" viewBox="0 0 1115.91385 832.5636">
               <line x1="389.95692" y1="255.2818" x2="533.95692" y2="255.2818" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
             	<ellipse cx="248.8673" cy="443.49824" rx="39.5" ry="12.40027" transform="translate(-296.29734 483.90373) rotate(-69.08217)" fill="#2f2e41"/>
             	<path d="M1153.37778,543.01392c15.6657,116.58889-5.66624,233.30465-114.16871,278.75349S805.90441,816.10117,760.45558,707.5987s61.78473-173.424,114.16871-278.75349C981.00055,214.95244,1104.72832,180.94968,1153.37778,543.01392Z" transform="translate(-42.04308 -33.7182)" fill="#f2f2f2"/>
@@ -121,17 +121,17 @@
             	<path d="M801.78241,792.89275s-1.50326-32.33193-32.32009-28.57378" transform="translate(-42.04308 -33.7182)" fill="#3f3d56"/>
             </svg>
           </div>
-          <div class="col-12 mt-5 pt-5 text-center">
-            <i class="fas fa-angle-down fa-2x text-secondary animate__animated animate__bounce animate__infinite"></i>
+          <div class="col-12 mt-5 pt-sm-5 text-center">
+            <i class="fas fa-angle-down fa-2x text-secondary animate__animated animate__bounce animate__infinite pt-4 d-none d-sm-block"></i>
           </div>
         </div>
       </header>
 
       <!-- Section | Team-container -->
       <section class="team-section mt-2 mt-sm-5" id="about-section">
-        <div class="row">
+        <div class="row mx-auto">
           <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
+            <div class="team-member p-0 rounded-circle" data-toggle="modal" data-target="#about-team-member-modal">
               <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
               <div>
                 <p class="team-member-details mt-3">
@@ -143,7 +143,7 @@
           </div>
 
           <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
+            <div class="team-member p-0 rounded-circle" data-toggle="modal" data-target="#about-team-member-modal">
               <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
               <div>
                 <p class="team-member-details mt-3">
@@ -155,7 +155,20 @@
           </div>
 
           <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
+            <div class="team-member p-0 rounded-circle" data-toggle="modal" data-target="#about-team-member-modal">
+              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
+              <div>
+                <p class="team-member-details mt-3">
+                  <span class="team-member-name">Yanik Kumar,</span>
+                  <span class="team-member-role">Founder</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
+            <div class="team-member p-0 rounded-circle" data-toggle="modal" data-target="#about-team-member-modal">
               <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
               <div>
                 <p class="team-member-details mt-3">
@@ -167,79 +180,7 @@
           </div>
 
           <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
-              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
-              <div>
-                <p class="team-member-details mt-3">
-                  <span class="team-member-name">Yanik Kumar,</span>
-                  <span class="team-member-role">Founder</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
-              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
-              <div>
-                <p class="team-member-details mt-3">
-                  <span class="team-member-name">Yanik Kumar,</span>
-                  <span class="team-member-role">Founder</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
-              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
-              <div>
-                <p class="team-member-details mt-3">
-                  <span class="team-member-name">Yanik Kumar,</span>
-                  <span class="team-member-role">Founder</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
-              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
-              <div>
-                <p class="team-member-details mt-3">
-                  <span class="team-member-name">Yanik Kumar,</span>
-                  <span class="team-member-role">Founder</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
-              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
-              <div>
-                <p class="team-member-details mt-3">
-                  <span class="team-member-name">Yanik Kumar,</span>
-                  <span class="team-member-role">Founder</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
-              <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
-              <div>
-                <p class="team-member-details mt-3">
-                  <span class="team-member-name">Yanik Kumar,</span>
-                  <span class="team-member-role">Founder</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-4 col-md-2 pb-4 mb-5 ml-5 mr-4 ">
-            <div class="team-member p-0 rounded-circle">
+            <div class="team-member p-0 rounded-circle" data-toggle="modal" data-target="#about-team-member-modal">
               <img class="rounded-circle" src="./assets/team/intro.jpg" alt="team-member = Yanik Kumar">
               <div>
                 <p class="team-member-details mt-3">
@@ -252,6 +193,32 @@
 
         </div>
       </section>
+
+      <!-- Modal -->
+      <div class="modal fade" id="about-team-member-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="about-team-member-modal-label">About Yanik</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="modal-footer d-block">
+              <div class="modal-footer-title">Find Yanik Anywhere</div>
+              <div class="find-us">
+                <a href="#"><i class="fab fa-instagram-square fa-3x text-dark"></i></a>
+                <a href="#"><i class="fab fa-facebook-square fa-3x p-1 p-sm-2 text-dark"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-3x p-1 p-sm-2 text-dark"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-3x p-1 p-sm-2 text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Footer -->
       <footer class="footer text-muted text-center mt-4 pt-5 pb-3 ">

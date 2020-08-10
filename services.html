@@ -10,7 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./css/style-Services.css"><!-- CDN - Bootsrap 4.5 -->
+  <!-- <link rel="stylesheet" href="./css/style-Services.css"> -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- CDN - Bootsrap 4.5 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/df90884292.js" crossorigin="anonymous"></script>
@@ -43,12 +45,14 @@
       <!-- Header -->
       <header class="services-header">
         <div class="row p-5">
-          <div class="services-heading text-center text-sm-left text-light col-sm-6 mt-sm-5 pt-sm-5">
-            <h2 class="mt-sm-5">
-              <div class="services-text mb-3">Our Services</div>
-              <span class="services-text-sub ml-sm-5">&</span>
-              <div class="services-text mt-3">Platforms</div>
-            </h2>
+          <div class="services-header text-center text-sm-left text-light col-sm-6 mt-sm-5 pt-sm-5">
+            <div class="pt-4 pt-sm-5">
+              <div class="heading pt-sm-3">
+                <div class="services-text mb-3">Our Services</div>
+                <span class="services-text-sub ml-sm-5">&</span>
+                <div class="services-text mt-3">Platforms</div>
+              </div>
+            </div>
             <button class="btn btn-primary rounded-pill mt-4 px-4 py-2">
               <a href="#services-section" class="text-light text-decoration-none">Explore'em</a>
             </button>
@@ -99,13 +103,13 @@
           </div>
 
           <div class="col-12 my-sm-5 mt-5 text-center">
-            <i class="fas fa-angle-down fa-2x text-secondary animate__animated animate__bounce animate__infinite"></i>
+            <i class="fas fa-angle-down fa-2x text-secondary animate__animated animate__bounce animate__infinite d-none d-sm-block"></i>
           </div>
         </div>
       </header>
 
       <section id="services-section" class="services-section mt-3 mt-sm-5">
-        <div class="service-cards p-sm-3">
+        <div class="services-card p-sm-3">
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
             <div class="col mb-4">
               <div id="card-news" class="card rounded-lg ">

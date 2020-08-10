@@ -12,12 +12,12 @@ body {
 
 }
 
-.about-text-main {
+.about-heading-main {
   font-family: 'Krona one', sans-serif;
   font-size: 2em;
   letter-spacing: 4px;
 }
-.about-text-sub {
+.about-heading-sub {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 0.8em;
 }
